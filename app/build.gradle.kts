@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.netorkmoduletest"
+    namespace = "com.example.netorklibtest"
     compileSdk = 36
 
     defaultConfig {

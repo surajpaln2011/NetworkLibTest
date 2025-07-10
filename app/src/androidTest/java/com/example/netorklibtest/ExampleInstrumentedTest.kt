@@ -1,4 +1,4 @@
-package com.example.netorkmoduletest
+package com.example.netorklibtest
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

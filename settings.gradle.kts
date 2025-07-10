@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NetorkModuleTest"
+rootProject.name = "NetorkLibTest"
 include(":app")
 include(":app:networklib")

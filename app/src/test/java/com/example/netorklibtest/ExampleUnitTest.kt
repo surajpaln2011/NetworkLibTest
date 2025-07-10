@@ -1,4 +1,4 @@
-package com.example.netorkmoduletest
+package com.example.netorklibtest
 
 import org.junit.Test
 

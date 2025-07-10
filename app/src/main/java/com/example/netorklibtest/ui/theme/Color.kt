@@ -1,4 +1,4 @@
-package com.example.netorkmoduletest.ui.theme
+package com.example.netorklibtest.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
