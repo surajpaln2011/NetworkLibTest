@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "NetorkLibTest"
 include(":app")
-include(":app:networklib")
