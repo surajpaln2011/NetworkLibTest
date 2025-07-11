@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.maven.publish)
 }
 
 android {
@@ -43,4 +44,24 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+project.afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+
+                artifactId = "mylibrary"
+                group = "com.github.surajpaln2011"
+                version = "1.0.0"
+            }
+        }
+
+        repositories {
+            google()
+            mavenCentral()
+            gradlePluginPortal()
+        }
+    }
 }
